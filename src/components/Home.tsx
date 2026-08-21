@@ -1,6 +1,3 @@
-// src/pages/Home.tsx
-import React, { useState } from 'react';
-// Importando do react-icons
 import { FiMenu, FiX, FiArrowRight, FiMonitor, FiLayout, FiMessageCircle } from 'react-icons/fi';
 import { BsCloud, BsInstagram } from 'react-icons/bs';
 import { LuBrain } from "react-icons/lu";
@@ -10,6 +7,7 @@ import { FaWhatsapp, FaLinkedin } from "react-icons/fa";
 
 
 import logoImg from '../assets/logo.png'; 
+import { useState } from 'react';
 
 export function Home() {
   // Estado para controlar a abertura/fechamento do menu mobile
