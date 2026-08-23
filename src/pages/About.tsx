@@ -9,7 +9,7 @@ interface Pillar {
 }
 
 export const About: React.FC = () => {
-  const discordLink = "https://discord.gg/seu-servidor";
+  const discordLink = "https://www.pryvatech.vercel.app/em-breve";
 
   const pillars: Pillar[] = [
     {
