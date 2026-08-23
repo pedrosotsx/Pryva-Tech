@@ -1,13 +1,9 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import { Header } from '../components/Header';
-import { HeroSection } from '../components/HeroSection';
-import { FeaturesSection } from '../components/FeaturesSection';
-import { MethodologySection } from '../components/MethodologySection';
-import { BenefitsSection } from '../components/BenefitsSection'; // Importado
-import { CommunityCtaSection } from '../components/CommunityCtaSection';
 import { Footer } from '../components/Footer';
 
-export const Home: React.FC = () => {
+export const RootLayout: React.FC = () => {
   const discordLink = "https://discord.gg/seu-servidor";
   const whatsappLink = "https://wa.me/5585984542891";
   const instagramLink = "https://instagram.com/pryvatech";
@@ -17,11 +13,7 @@ export const Home: React.FC = () => {
       <Header discordLink={discordLink} />
       
       <main className="flex-1 flex flex-col items-center">
-        <HeroSection discordLink={discordLink} whatsappLink={whatsappLink} />
-        <FeaturesSection />
-        <BenefitsSection /> {/* Nova seção adicionada */}
-        <MethodologySection />
-        <CommunityCtaSection discordLink={discordLink} whatsappLink={whatsappLink} />
+        <Outlet />
       </main>
 
       <Footer 
