@@ -8,7 +8,6 @@ import { CommunityCtaSection } from '../components/CommunityCtaSection';
 export const Home: React.FC = () => {
   const discordLink = "https://discord.gg/seu-servidor";
   const whatsappLink = "https://wa.me/5585984542891";
-  const instagramLink = "https://instagram.com/pryvatech";
 
   return (
     <div className="min-h-screen bg-pryva-background text-white font-sans selection:bg-pryva-blue/30 overflow-x-hidden flex flex-col">
