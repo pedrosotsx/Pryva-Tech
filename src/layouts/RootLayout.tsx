@@ -4,7 +4,7 @@ import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 
 export const RootLayout: React.FC = () => {
-  const discordLink = "https://www.pryvatech.vercel.app/em-breve";
+  const discordLink = "/em-breve";
   const whatsappLink = "https://chat.whatsapp.com/BN4Z32juOO11Hk64f2JjhY";
   const instagramLink = "https://instagram.com/pryvatech";
 

@@ -6,7 +6,7 @@ import { BenefitsSection } from '../components/BenefitsSection'; // Importado
 import { CommunityCtaSection } from '../components/CommunityCtaSection';
 
 export const Home: React.FC = () => {
-  const discordLink = "https://www.pryvatech.vercel.app/em-breve";
+  const discordLink = "/em-breve";
   const whatsappLink = "https://chat.whatsapp.com/BN4Z32juOO11Hk64f2JjhY";
 
   return (
