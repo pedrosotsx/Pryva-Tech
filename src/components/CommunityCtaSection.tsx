@@ -13,7 +13,7 @@ export const CommunityCtaSection: React.FC<CommunityCtaSectionProps> = ({ discor
         <div className="absolute inset-0 bg-gradient-to-br from-[#0F172A] via-[#1E1B4B] to-[#0F172A] opacity-90 -z-10"></div>
         
         <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight max-w-2xl">
-          Pronto para evoluir sem depender de aulas teóricas?
+          Pronto para evoluir?
         </h2>
         
         <p className="text-pryva-slate text-sm md:text-base max-w-xl">

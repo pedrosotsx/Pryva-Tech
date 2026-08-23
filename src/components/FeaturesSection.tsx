@@ -20,7 +20,7 @@ export const FeaturesSection: React.FC = () => {
     <section id="como-funciona" className="px-6 py-16 lg:py-24 w-full max-w-7xl mx-auto flex flex-col items-center">
       <h2 className="text-2xl md:text-3xl font-bold mb-3 text-center">Como a Pryva Funciona</h2>
       <p className="text-pryva-slate text-sm md:text-base text-center mb-12">
-        Aprenda no modelo peer-to-peer: sem aulas gravadas genéricas, focado em autonomia e comunidade.
+        Aprenda no modelo peer-to-peer focado em autonomia e comunidade.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full">

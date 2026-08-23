@@ -2,9 +2,10 @@ import React from 'react';
 import { Header } from '../components/Header';
 import { HeroSection } from '../components/HeroSection';
 import { FeaturesSection } from '../components/FeaturesSection';
+import { MethodologySection } from '../components/MethodologySection';
+import { BenefitsSection } from '../components/BenefitsSection'; // Importado
 import { CommunityCtaSection } from '../components/CommunityCtaSection';
 import { Footer } from '../components/Footer';
-import { MethodologySection } from './MethodologySection';
 
 export const Home: React.FC = () => {
   const discordLink = "https://discord.gg/seu-servidor";
@@ -18,6 +19,7 @@ export const Home: React.FC = () => {
       <main className="flex-1 flex flex-col items-center">
         <HeroSection discordLink={discordLink} whatsappLink={whatsappLink} />
         <FeaturesSection />
+        <BenefitsSection /> {/* Nova seção adicionada */}
         <MethodologySection />
         <CommunityCtaSection discordLink={discordLink} whatsappLink={whatsappLink} />
       </main>
